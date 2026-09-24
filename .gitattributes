@@ -1,0 +1,13 @@
+# Project-specific overrides
+*.jpeg binary
+src/**/*.tsx linguist-detectable
+*.json linguist-detectable=false
+* text=auto
+
+*.htm linguist-vendored
+*.map linguist-generated
+
+examples/site/index.html linguist-vendored   
+
+yarn.lock linguist-generated
+# eof 116fb8ee
